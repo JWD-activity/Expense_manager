@@ -1,10 +1,13 @@
 import './App.css';
+import Card from './UI/Card';
+import React from 'react';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'></header>
-    </div>
+    <main>
+      <h2 className='heading'>Expense Manager</h2>
+      <Card />
+    </main>
   );
 }
 
