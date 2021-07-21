@@ -37,7 +37,7 @@ function App() {
     <main>
       <div className='container-main'>
         <h2 className='heading'>Expense Manager</h2>
-        <Card>
+        <Card className='expenses'>
           <NewExpense onAddExpense={addExpenseHandler} />
           <Expense items={expenses} />
         </Card>
