@@ -8,8 +8,7 @@
 */
 
 main {
-  position: relative;
-  height: 100vh;
+  margin-top: 2rem;
 }
 
 h2 {
@@ -22,19 +21,6 @@ h2 {
 
 .container-main {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-@media only screen and (max-width: 990px) {
-  .container-main {
-    top: 52%;
-  }
-}
-
-@media only screen and (max-width: 660px) {
-  .container-main {
-    top: 60%;
-  }
+  transform: translateX(-50%);
 }
