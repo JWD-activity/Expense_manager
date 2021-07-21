@@ -1,12 +1,17 @@
 import './App.css';
-import Card from './UI/Card';
+
 import React from 'react';
+import ExpenseForm from './Components/Expense/ExpenseForm';
+import Card from './UI/Card';
 
 function App() {
   return (
     <main>
       <h2 className='heading'>Expense Manager</h2>
-      <Card />
+
+      <Card>
+        <ExpenseForm />
+      </Card>
     </main>
   );
 }

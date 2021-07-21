@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+}
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.new-expense__control {
+  margin-bottom: 0.5rem;
+}
+
+.new-expense__control label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #f4f4f5;
+}
+
+.new-expense__control input {
+  background-color: #f4f4f5;
+  border-radius: 5px;
+  font: inherit;
+  padding: 0.3rem;
+  border: none;
+  width: 100%;
+}
+.new-expense__actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.new-expense__actions button {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  background-color: #6f59f9;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.new-expense__actions button:hover {
+  background-color: #4e33fc;
+}
+
+@media only screen and (max-width: 660px) {
+  .new-expense__controls {
+    display: block;
+    width: 80vw;
+  }
+
+  .new-expense__control input {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .new-expense__controls {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .new-expense__controls {
+    width: 85vw;
+    margin: 0 auto;
+  }
+}
