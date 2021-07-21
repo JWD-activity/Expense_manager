@@ -6,24 +6,35 @@
 #62CA97
 #E55A31
 */
+
+main {
+  position: relative;
+  height: 100vh;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
 .heading {
-  position: absolute;
-  top: 8%;
-  left: 5%;
-  text-transform: uppercase;
-  top: 8%;
   color: #282633;
 }
 
-@media only screen and (max-width: 550px) {
-  .heading {
-    position: absolute;
-    top: 2%;
-    left: 3%;
+.container-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media only screen and (max-width: 990px) {
+  .container-main {
+    top: 52%;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .heading {
+@media only screen and (max-width: 660px) {
+  .container-main {
+    top: 60%;
   }
 }

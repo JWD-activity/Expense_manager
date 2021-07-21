@@ -1,7 +1,12 @@
 import React from 'react';
+import ExpenseForm from './ExpenseForm';
 
 function NewExpense() {
-  return <div></div>;
+  return (
+    <div>
+      <ExpenseForm />
+    </div>
+  );
 }
 
 export default NewExpense;

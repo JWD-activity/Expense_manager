@@ -35,11 +35,13 @@ function App() {
 
   return (
     <main>
-      <h2 className='heading'>Expense Manager</h2>
-      <Card>
-        <NewExpense onAddExpense={addExpenseHandler} />
-        <Expense items={expenses} />
-      </Card>
+      <div className='container-main'>
+        <h2 className='heading'>Expense Manager</h2>
+        <Card>
+          <NewExpense onAddExpense={addExpenseHandler} />
+          <Expense items={expenses} />
+        </Card>
+      </div>
     </main>
   );
 }

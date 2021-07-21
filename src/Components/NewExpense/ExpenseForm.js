@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ExpenseForm.css';
-function ExpenseForm() {
+
+function ExpenseForm(props) {
+  const [enteredTilte, setEnteredTilte] = useState('');
   return (
     <div className='container'>
       <form className='form'>
