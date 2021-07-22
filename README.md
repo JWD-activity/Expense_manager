@@ -10,7 +10,7 @@
 ## Description
 This application allows users to easily manage their expenses by entering the items, dates, and amounts they spend.
 
-#### Main feature
+#### Main features
 - **Add New Expense**: Click the "Add new expense" button to add a new cost, enter data, and submit it.
 - **Display list of expenses**: Expenditure items are displayed on the card.
 - **Display visual graphs for monthly expenditures**: Select Filter by Year to display the graph.
